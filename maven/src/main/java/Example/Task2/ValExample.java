@@ -1,4 +1,4 @@
-package Example;
+package Example.Task2;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -21,6 +21,12 @@ public class ValExample {
             entry.getValue();
         }
         return map;
+    }
+
+    public static void run(){
+        ValExample valExample = new ValExample();
+        System.out.println(valExample.example());
+        System.out.println(valExample.example2());
     }
 }
 
