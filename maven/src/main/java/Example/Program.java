@@ -1,11 +1,12 @@
 package Example;
 
+import Example.Task2.ValExample;
+import Example.Task3.VarExample;
+
 public class Program {
-
     public static void main(String[] args){
-        ValExample valExample = new ValExample();
+        ValExample.run();
 
-        System.out.println(valExample.example());
-        System.out.println(valExample.example2());
+        VarExample.run();
     }
 }
